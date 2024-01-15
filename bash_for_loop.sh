@@ -1,3 +1,6 @@
+# komut satırından degisken artirma
+for ((k=1; k<=10; k++)) ; do echo $k ; done
+ 
 # dosyadan tek satır okuyup python dosyasına parametre ile verilip çıktıları yeni dosyaya yazma
 for i in $(cat dosya.txt);do pythondosyasi.py $i ; done > yenidosya.txt
 
